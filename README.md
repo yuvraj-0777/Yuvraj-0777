@@ -63,7 +63,7 @@
 ###
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/gpratap608/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/yuvraj-0777/count.svg?"  />
 </div>
 
 ###
