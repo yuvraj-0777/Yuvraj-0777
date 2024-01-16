@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Yuvraj Singh</h1>
 
-<h2 align="left">🚀 Full Stack Developer | MERN Stack | Next.js | Reactive App Developer | AR/VR & Unity Enthusiast 🕶️</h2>
+<h2 align="left">🚀 Full Stack Developer | MERN Stack | Next.js | React-native | App Developer | AR/VR & Unity Enthusiast 🕶️</h2>
 
 <h3 align="left">Greetings! 👋 I'm [YourName], a passionate full-stack developer with expertise in the MERN stack, Next.js, and reactive app development. 🌐 My journey in the tech world is fueled by a relentless curiosity and a deep love for learning. 📚</h3>
 
@@ -25,7 +25,6 @@
 
 
 <div style="background-color: #2b2b2b; height: 20px; margin: 20rem 0;"></div>
-
 
 <div align="center">
   <img src="https://profile-counter.glitch.me/yuvraj-0777/count.svg?"  />
