@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Yuvraj Singh</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
 
 <h2 align="left">🚀 Full Stack Developer | MERN Stack | Next.js | Reactive App Developer | AR/VR & Unity Enthusiast 🕶️</h2>
 
@@ -12,11 +11,13 @@
 <!-- Add a beautiful separator -->
 <div style="background-color: #2b2b2b; height: 1px; margin: 1rem 0;"></div>
 
+###
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yuvraj-0777&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"/>
+<!--   <img src="https://github-readme-stats.vercel.app/api?username=yuvraj-0777&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  /> -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=yuvraj-0777&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
   <img src="https://streak-stats.demolab.com?user=yuvraj-0777&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  />
+  <img src="https://github-profile-trophy.vercel.app?username=yuvraj-0777&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 <h3 align="left">Languages and Tools:</h3>
