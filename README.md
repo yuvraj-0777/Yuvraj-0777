@@ -4,7 +4,7 @@
 
 <h3 align="left">Greetings! 👋 I'm [YourName], a passionate full-stack developer with expertise in the MERN stack, Next.js, and reactive app development. 🌐 My journey in the tech world is fueled by a relentless curiosity and a deep love for learning. 📚</h3>
 
-<p align="left">In addition to my proficiency in building robust web applications, I'm an AR/ enthusiast with a knack for creating immersive experiences using Unity. 🕹️ I thrive on the excitement of exploring cutting-edge technologies and transforming innovative ideas into inspiring projects. 🚀</p>
+<p align="left">In addition to my proficiency in building robust web applications, I'm an DevOps and AR/VR enthusiast with a knack for creating immersive experiences using Unity. 🕹️ I thrive on the excitement of exploring cutting-edge technologies and transforming innovative ideas into inspiring projects. 🚀</p>
 
 <p align="left">Let's code, create, and explore the limitless possibilities of technology together! 🌟 Check out my repositories to witness the fusion of creativity and technical prowess. 💻✨</p>
 
