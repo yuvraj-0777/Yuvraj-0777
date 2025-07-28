@@ -1,0 +1,165 @@
+<svg width="800" height="920" viewBox="0 0 800 920" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        /* Main terminal window styling */
+        .window {
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: background-color 0.3s, border 0.3s;
+        }
+        .title-bar {
+            height: 30px;
+            display: flex;
+            align-items: center;
+            padding: 0 8px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .buttons { display: flex; align-items: center; }
+        .button {
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .content {
+            font-family: 'Fira Code', 'Courier New', monospace;
+            padding: 15px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .line { display: flex; align-items: center; }
+        .prompt { font-weight: 700; margin-right: 8px; }
+        .command { font-weight: 500; }
+        .output { white-space: pre; padding-left: 10px; }
+        
+        /* Light & Dark Theme Variables */
+        :root {
+            --bg-color-light: #ffffff;
+            --border-color-light: #e1e4e8;
+            --title-bar-bg-light: #f6f8fa;
+            --prompt-color-light: #0366d6;
+            --command-color-light: #24292e;
+            --output-color-light: #333333;
+            --link-color-light: #005cc5;
+            --dir-color-light: #0366d6;
+
+            --bg-color-dark: #0d1117;
+            --border-color-dark: #30363d;
+            --title-bar-bg-dark: #161b22;
+            --prompt-color-dark: #79c0ff;
+            --command-color-dark: #c9d1d9;
+            --output-color-dark: #8b949e;
+            --link-color-dark: #58a6ff;
+            --dir-color-dark: #79c0ff;
+        }
+        
+        /* Theme-aware styling */
+        .window { 
+            background-color: var(--bg-color-light); 
+            border: 1px solid var(--border-color-light);
+        }
+        .title-bar { background-color: var(--title-bar-bg-light); }
+        .button.red { background-color: #ff5f56; }
+        .button.yellow { background-color: #ffbd2e; }
+        .button.green { background-color: #27c93f; }
+        .prompt { color: var(--prompt-color-light); }
+        .command { color: var(--command-color-light); }
+        .output { color: var(--output-color-light); }
+        .dir { color: var(--dir-color-light); font-weight: bold; }
+        a { fill: var(--link-color-light); text-decoration: underline; }
+
+        @media (prefers-color-scheme: dark) {
+            .window { 
+                background-color: var(--bg-color-dark); 
+                border: 1px solid var(--border-color-dark);
+            }
+            .title-bar { background-color: var(--title-bar-bg-dark); }
+            .prompt { color: var(--prompt-color-dark); }
+            .command { color: var(--command-color-dark); }
+            .output { color: var(--output-color-dark); }
+            .dir { color: var(--dir-color-dark); }
+            a { fill: var(--link-color-dark); }
+        }
+    </style>
+    <foreignObject width="800" height="920">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="buttons">
+                        <div class="button red"></div>
+                        <div class="button yellow"></div>
+                        <div class="button green"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <span class="prompt">yuvraj@github:~$</span>
+                        <img xlink:href="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=1000&color=24292E&darkColor=C9D1D9&center=false&vCenter=true&width=70&lines=whoami" />
+                    </div>
+                    <div class="output">
+                        <p style="margin: 0;">Yuvraj Singh</p>
+                        <p style="margin: 0;">DevOps Engineer & Full Stack Developer</p>
+                    </div>
+
+                    <div class="line" style="margin-top: 20px;">
+                        <span class="prompt">yuvraj@github:~$</span>
+                        <img xlink:href="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2000&color=24292E&darkColor=C9D1D9&center=false&vCenter=true&width=200&lines=ls+-lA+--group-directories-first" />
+                    </div>
+                    <div class="output">
+                        <p style="margin: 0;">total 3</p>
+                        <p style="margin: 0;"><span class="dir">drwxr-xr-x</span> 1 yuvraj dev 4096 Jul 28 15:30 <span class="dir">skills/</span></p>
+                        <p style="margin: 0;"><span class="dir">drwxr-xr-x</span> 1 yuvraj dev 4096 Jul 28 15:25 <span class="dir">projects/</span></p>
+                        <p style="margin: 0;"><span class="dir">-rwxr-xr-x</span> 1 yuvraj dev  512 Jul 28 15:20 <a href="https://www.linkedin.com/in/yuvraj-singh-831540221/?trk=opento_sprofile_details" target="_blank">contact.sh*</a></p>
+                    </div>
+
+                    <div class="line" style="margin-top: 20px;">
+                        <span class="prompt">yuvraj@github:~$</span>
+                        <img xlink:href="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=2500&color=24292E&darkColor=C9D1D9&center=false&vCenter=true&width=250&lines=cat+projects%2Ffeatured.md" />
+                    </div>
+                    <div class="output">
+                        <p style="margin: 0;">## Featured Projects:</p>
+                        <p style="margin: 0;">1. **Project DevOps CI/CD** - Automated and optimized mission-critical deployments.</p>
+                        <p style="margin: 0;">2. **Full-Stack E-commerce Platform** - Built with MERN stack and Next.js.</p>
+                        <p style="margin: 0;">3. **RESTful API for Social App** - High-performance API using Express.js.</p>
+                    </div>
+
+                    <div class="line" style="margin-top: 20px;">
+                        <span class="prompt">yuvraj@github:~$</span>
+                        <img xlink:href="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=1200&color=24292E&darkColor=C9D1D9&center=false&vCenter=true&width=100&lines=neofetch" />
+                    </div>
+                    <div class="output">
+                        <table style="border: none; width: 100%;">
+                            <tr style="border: none;">
+                                <td style="border: none; vertical-align: top; width: 45%;">
+                                    <pre style="font-family: 'Fira Code', monospace; margin: 0; font-size: 13px;">
+  <span style="color: #79c0ff;">yuvraj-0777@github</span>
+  --------------------
+  <span style="color: #79c0ff;">OS:</span> GitHub Hosted
+  <span style="color: #79c0ff;">Kernel:</span> Linux
+  <span style="color: #79c0ff;">Uptime:</span> 3 years
+  <span style="color: #79c0ff;">Shell:</span> bash
+  <span style="color: #79c0ff;">Editor:</span> VSCode
+  <span style="color: #79c0ff;">DSA:</span> 500+ LeetCode
+  <span style="color: #79c0ff;">Focus:</span> DevOps, Full Stack
+                                    </pre>
+                                </td>
+                                <td style="border: none; vertical-align: top; width: 55%;">
+                                    <picture>
+                                        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yuvraj-0777&show_icons=true&theme=github_dark&bg_color=0d1117&text_color=c9d1d9&border_color=30363d&hide_title=true"/>
+                                        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yuvraj-0777&show_icons=true&theme=default&bg_color=ffffff&text_color=24292e&border_color=e1e4e8&hide_title=true"/>
+                                        <img src="https://github-readme-stats.vercel.app/api?username=yuvraj-0777&theme=default&hide_title=true"/>
+                                    </picture>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="line" style="margin-top: 20px;">
+                        <span class="prompt">yuvraj@github:~$</span>
+                        <img xlink:href="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=500&color=24292E&darkColor=C9D1D9&center=false&vCenter=true&width=50&lines=exit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
